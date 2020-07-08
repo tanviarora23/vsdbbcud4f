@@ -30,11 +30,11 @@ LTspiceXVII is used to simulate the General Purpose Input Output(GPIO). LtspiceX
 
   1.After installation Go to New schematic option on top left and draw circuit schematic using components available on top.
   
-  2.Go to ''' Edit->Spice Directive’S’ ''' to edit text on the schematic. Also provide input voltage as required by clicking right button and then advanced and changing input form as required. Save circuit with extension (.asc).
+  2.Go to ' Edit->Spice Directive’S’ ' to edit text on the schematic. Also provide input voltage as required by clicking right button and then advanced and changing input form as required. Save circuit with extension (.asc).
 
-  3.To open file which is already created,Go to ''' File->Open ''' (Ctrl+O) and select file with .asc extension.
+  3.To open file which is already created,Go to ' File->Open ' (Ctrl+O) and select file with .asc extension.
 
-  4.Go to ''' Simulate->Run    to obtain waveforms.
+  4.Go to ' Simulate->Run ' to obtain waveforms.
 
   5.You can select parameters you want to display or directly click on that part of circuit(to be displayed). 
 
