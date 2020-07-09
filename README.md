@@ -28,6 +28,9 @@
  7.PUEN– (INPUT )-Pull up Enable,connected to vdd, pull up pin to high value when signal is floating.
  
  8.Y-(OUTPUT)-Output pin.
+## block diagram
+
+![](https://github.com/tanu2303/BidirectionalBuffer-GPIO/blob/master/img/Screenshot%20(4609).png) 
 
 ## Typical Performance Characteristics
 
@@ -144,6 +147,45 @@ EN=1 ONLY
 
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/Screenshot%20(5268).png)
 
+## SIMULATIONS IN WINDOWS(NGSPICE AND LTSPICE)
+
+
+## ltspice
+![](https://github.com/tanu2303/BidirectionalBuffer-GPIO/blob/master/6july/Screenshot%20(5178).png)
+
+## ngspice
+
+1. A
+
+![](https://github.com/tanu2303/BidirectionalBuffer-GPIO/blob/master/6july/Screenshot%20(5177).png)
+
+2. EN
+
+![](https://github.com/tanu2303/BidirectionalBuffer-GPIO/blob/master/6july/Screenshot%20(5175).png)
+
+3.Y
+
+![](https://github.com/tanu2303/BidirectionalBuffer-GPIO/blob/master/6july/Screenshot%20(5176).png)
+
+4.PO
+
+![](https://github.com/tanu2303/BidirectionalBuffer-GPIO/blob/master/6july/Screenshot%20(5171).png)
+
+5.PI
+
+![](https://github.com/tanu2303/BidirectionalBuffer-GPIO/blob/master/6july/Screenshot%20(5172).png)
+
+6.PDEN
+
+![](https://github.com/tanu2303/BidirectionalBuffer-GPIO/blob/master/6july/Screenshot%20(5173).png)
+
+7.PUEN
+
+![](https://github.com/tanu2303/BidirectionalBuffer-GPIO/blob/master/6july/Screenshot%20(5174).png)
+
+8.OUT_T (PAD)
+
+![](https://github.com/tanu2303/BidirectionalBuffer-GPIO/blob/master/6july/Screenshot%20(5169).png)
 
 NOTE : PRELAYOUT SIMULATIONS ARE TESTED FOR osu180nm
 
