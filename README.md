@@ -8,20 +8,21 @@
  ## SYMBOL
 
  ## PIN DESCRIPTIONS
-        I.	A – (INPUT )-Input data is given at this pin.
-        II.	EN– (INPUT )-When  EN=0 : Output path(core APAD) is  followed.
+    
+   1.A – (INPUT )-Input data is given at this pin.
+   2.EN– (INPUT )-When  EN=0 : Output path(core APAD) is  followed.
                                         When EN=1 : Input path (PAD YCORE)is  followed.
-        III.	PAD– (IO )-Bidirectional port.(Needed for communication between IPs)
-        IV.	PDEN – (INPUT )-Pull down Enable, connected to ground, pull down pin to low value when signal is floating.
-        V.	PI– (INPUT )-Input data at pad, Determines output of PO on  inputting with Y.
-        VI.	PO– (OUTPUT )-Output from pad, Determined by Y and PI as inputs of dual nand gate.  
-        VII.	PUEN– (INPUT )-Pull up Enable,connected to vdd, pull up pin to high value when signal is floating.
-        VIII.	Y-(OUTPUT)-Output pin.
+   3.PAD– (IO )-Bidirectional port.(Needed for communication between IPs)
+   4.PDEN – (INPUT )-Pull down Enable, connected to ground, pull down pin to low value when signal is floating.
+   5.PI– (INPUT )-Input data at pad, Determines output of PO on  inputting with Y.
+   6.PO– (OUTPUT )-Output from pad, Determined by Y and PI as inputs of dual nand gate.  
+   7.PUEN– (INPUT )-Pull up Enable,connected to vdd, pull up pin to high value when signal is floating.
+   8.Y-(OUTPUT)-Output pin.
 
 ## Typical Performance Characteristics
 
 ## Future Work 
-         ISSUES:
+      ISSUES:
 	      1.Layout and Post Layout Simulations are in progress.
 	      2. Placing and Routing (PNR) is pending. 
     Fixed Layout and post Layout Simulations will be released soon. Trying to maximize frequency of GPIO as currently it suits maximum frequency of approximately 2.538 MHz.
@@ -29,12 +30,13 @@
 
 # IP USAGE
 ## TOOLS NEEDED TO USE THIS IP
-  1. ngspice
+ 
+ 1. ngspice
 
-   IN ubuntu20.04:
-                         ` $ sudo apt-get install ngspice `
+ IN ubuntu20.04:
+ ` $ sudo apt-get install ngspice `
 			 
-   IN Windows10:
+ IN Windows10:
             
 	    1. Download ` ngspice32 ` and after installing ` spice64 ` folder is seen.
             
@@ -55,11 +57,12 @@
 
 
    3.Electric VLSI Design System (for layout and post-layout simulation purpose)
-       In linux: 
+     
+   In linux: 
        
-       `$ sudo apt-get install electric`
+   `$ sudo apt-get install electric`
        
-        `Y`
+    `Y`
 		       
   Or directly use  ` $ sudo apt-get install –y electric `
   
@@ -90,10 +93,18 @@
 `plot out_t which is to see pad IO`
 
 NOTE : PRELAYOUT SIMULATIONS ARE TESTED FOR osu180nm
-#STEPS TO OPEN LAYOUT IN ELECTRIC
-            Work in progress . Will update soon
-#STEPS TO RUN POST-LAYOUT SIMULATIONS
+# PRELAYOUT SIMULATIONS
+
+
+## STEPS TO OPEN LAYOUT IN ELECTRIC
+            
+	    Work in progress . Will update soon
+
+
+## STEPS TO RUN POST-LAYOUT SIMULATIONS
             Work in progress . Will update soon.
+	    
+
 CAD TOOL REPORTING
 VSDBBCUD4F is a GPIO(General Purpose Input Output) IP. It suits maximum frequency of approximately 2.538 MHz. Data flow is bidirectional i.e. from Input Output or OutputInput depends on user’s choice of Enable pin.
 # Inputs needed for tool usage 
