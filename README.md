@@ -1,38 +1,54 @@
-# vsdbbcud4f
-Bi-directional Buffer with Non-Inverting CMOS Input and Gated Pull-down and Pull-up,Strength 4mA @ 3.3V,Normal,High noise (Fast Speed)
-# DESCRIPTION OF VSDBBCUD4F
- VSDBBCUD4F is a GPIO(General Purpose Input Output) IP. It suits maximum frequency of approximately 2.538 MHz. Data flow is bidirectional i.e. from Input Output or OutputInput depends on user’s choice of Enable pin.
+# DATASHEET
+ ## vsdbbcud4f
+   Bi-directional Buffer with Non-Inverting CMOS Input and Gated Pull-down and Pull-up,Strength 4mA @ 3.3V,Normal,High noise (Fast Speed)
+ ## DESCRIPTION OF VSDBBCUD4F
+   VSDBBCUD4F is a GPIO(General Purpose Input Output) IP. It suits maximum frequency of approximately 2.538 MHz. Data flow is bidirectional i.e. from 'Input-->Output' or 
+   'Output-->Input' depends on user’s choice of Enable pin.
 
-#SYMBOL
+ ## SYMBOL
 
-#PIN DESCRIPTIONS
-I.	A – (INPUT )-Input data is given at this pin.
-II.	EN– (INPUT )-When  EN=0 : Output path(core APAD) is  followed.
+ ## PIN DESCRIPTIONS
+        I.	A – (INPUT )-Input data is given at this pin.
+        II.	EN– (INPUT )-When  EN=0 : Output path(core APAD) is  followed.
                                         When EN=1 : Input path (PAD YCORE)is  followed.
-III.	PAD– (IO )-Bidirectional port.(Needed for communication between IPs)
-IV.	PDEN – (INPUT )-Pull down Enable, connected to ground, pull down pin to low value when signal is floating.
-V.	PI– (INPUT )-Input data at pad, Determines output of PO on  inputting with Y.
-VI.	PO– (OUTPUT )-Output from pad, Determined by Y and PI as inputs of dual nand gate.  
-VII.	PUEN– (INPUT )-Pull up Enable,connected to vdd, pull up pin to high value when signal is floating.
-VIII.	Y-(OUTPUT)-Output pin.
+        III.	PAD– (IO )-Bidirectional port.(Needed for communication between IPs)
+        IV.	PDEN – (INPUT )-Pull down Enable, connected to ground, pull down pin to low value when signal is floating.
+        V.	PI– (INPUT )-Input data at pad, Determines output of PO on  inputting with Y.
+        VI.	PO– (OUTPUT )-Output from pad, Determined by Y and PI as inputs of dual nand gate.  
+        VII.	PUEN– (INPUT )-Pull up Enable,connected to vdd, pull up pin to high value when signal is floating.
+        VIII.	Y-(OUTPUT)-Output pin.
 
-#Typical Performance Characteristics
-# Future Work 
-Placing and Routing (PNR) is pending. Fixed Layout and post Layout Simulations will be released soon. Trying to maximize frequency of GPIO as currently it suits maximum frequency of approximately 2.538 MHz.
+## Typical Performance Characteristics
+
+## Future Work 
+         ISSUES:
+	      1.Layout and Post Layout Simulations are in progress.
+	      2. Placing and Routing (PNR) is pending. 
+    Fixed Layout and post Layout Simulations will be released soon. Trying to maximize frequency of GPIO as currently it suits maximum frequency of approximately 2.538 MHz.
+
 
 # IP USAGE
-# TOOLS NEEDED TO USE THIS IP
-1.ngspice
-IN ubuntu20.04:
+## TOOLS NEEDED TO USE THIS IP
+  1. ngspice
 
-   $ sudo apt-get install ngspice 
-2.ltspice LTspiceXVII is used to simulate the General Purpose Input Output(GPIO). LtspiceXVII is a spice simulation software produced by semiconductor manufacturer Analog Devices. Schematic of circuits and the waveforms can be obtained easily from this tool.
+   IN ubuntu20.04:
+                         ' $ sudo apt-get install ngspice '
+   IN Windows10:
+            1. Download ' ngspice32 ' and after installing ' spice64 ' folder is seen.
+            2.add your ' cir file ' to its bin folder.
+            3.click on ' ngspice.exe ' and write ' name  ' of your file added.
+            4.then give cmd ' RUN '
+            5.after that ' display '
+            6.now give command ' plot VARIABLE NAME ' and waveform is there.
+            7.after execution give cmd ' quit '
 
-3.Electric VLSI Design System (for layout and post-layout simulation purpose)
-In linux: $ sudo apt-get install electric
-Y
-Or directly use $ sudo apt-get install –y electric
-$ electric
+   2. LTspiceXVII is used to simulate the General Purpose Input Output(GPIO). LtspiceXVII is a spice simulation software produced by semiconductor manufacturer Analog Devices.         Schematic of circuits and the waveforms can be obtained easily from this tool.
+
+   3.Electric VLSI Design System (for layout and post-layout simulation purpose)
+       In linux:       '$ sudo apt-get install electric'
+                       'Y'
+       Or directly use '$ sudo apt-get install –y electric'
+                       '$ electric'
 #STEPS TO CLONE IP ON TO UNIX BASED SYSTEMS AND RUN PRE-LAYOUT SIMULATIONS
 $ sudo apt-get install ngspice
 $ sudo apt install git
