@@ -36,6 +36,8 @@
 
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/Screenshot%20(5179).png)
 
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/Screenshot%20(5180).png)
+
 ## Typical Performance Characteristics
 
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/specifications.png)
