@@ -81,18 +81,29 @@
 `$la`
 
 `$ngspice netlist.cir`
+
 `run`
+
 `display`
+
 `plot a`
+
 `plot en`
+
 `plot y`
+
 `plot pden`
+
 `plot puen`
+
 `plot pi`
+
 `plot po`
-`plot out_t which is to see pad IO`
+
+`plot out_t` which is to see pad IO
 
 NOTE : PRELAYOUT SIMULATIONS ARE TESTED FOR osu180nm
+
 # PRELAYOUT SIMULATIONS
 
 
