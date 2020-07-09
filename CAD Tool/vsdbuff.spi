@@ -1,0 +1,54 @@
+*** SPICE deck for cell vsdbuff{lay} from library CMOScells
+*** Created on Thu Jul 09, 2020 13:01:54
+*** Last revised on Thu Jul 09, 2020 16:14:29
+*** Written on Thu Jul 09, 2020 16:24:24 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+*CMOS/BULK-NWELL (PRELIMINARY PARAMETERS)
+.OPTIONS NOMOD DEFL=3UM DEFW=3UM DEFAD=70P DEFAS=70P LIMPTS=1000
++ITL5=0 RELTOL=0.01 ABSTOL=500PA VNTOL=500UV LVLTIM=2
++LVLCOD=1
+.MODEL N NMOS LEVEL=1
++KP=60E-6 VTO=0.7 GAMMA=0.3 LAMBDA=0.05 PHI=0.6
++LD=0.4E-6 TOX=40E-9 CGSO=2.0E-10 CGDO=2.0E-10 CJ=.2MF/M^2
+.MODEL P PMOS LEVEL=1
++KP=20E-6 VTO=0.7 GAMMA=0.4 LAMBDA=0.05 PHI=0.6
++LD=0.6E-6 TOX=40E-9 CGSO=3.0E-10 CGDO=3.0E-10 CJ=.2MF/M^2
+.MODEL DIFFCAP D CJO=.2MF/M^2
+
+*** SUBCIRCUIT CMOScells__inv FROM CELL inv{lay}
+.SUBCKT CMOScells__inv a gnd vdd y
+Mnmos@0 y a gnd gnd N L=0.36U W=1.08U AS=1.879P AD=1.604P PS=7.74U PD=5.22U
+Mpmos@0 y a vdd vdd P L=0.36U W=2.16U AS=2.948P AD=1.604P PS=9.9U PD=5.22U
+.ENDS CMOScells__inv
+
+*** SUBCIRCUIT CMOScells__nand2 FROM CELL nand2{lay}
+.SUBCKT CMOScells__nand2 a b gnd vdd y
+Mnmos@0 net@32 a gnd gnd N L=0.36U W=2.16U AS=2.948P AD=0.68P PS=9.9U PD=3.06U
+Mnmos@1 y b net@32 gnd N L=0.36U W=2.16U AS=0.68P AD=1.49P PS=3.06U PD=4.26U
+Mpmos@0 vdd b y vdd P L=0.36U W=2.16U AS=1.49P AD=2.543P PS=4.26U PD=8.1U
+Mpmos@1 y a vdd vdd P L=0.36U W=2.16U AS=2.543P AD=1.49P PS=8.1U PD=4.26U
+.ENDS CMOScells__nand2
+
+*** SUBCIRCUIT CMOScells__tri FROM CELL tri{lay}
+.SUBCKT CMOScells__tri a en enb gnd vdd y
+Mnmos@0 y en net@7 gnd N L=0.36U W=1.08U AS=0.413P AD=1.604P PS=1.98U PD=5.22U
+Mnmos@1 net@7 a gnd gnd N L=0.36U W=1.08U AS=1.879P AD=0.413P PS=7.74U PD=1.98U
+Mpmos@0 net@6 a vdd vdd P L=0.36U W=2.16U AS=2.948P AD=0.68P PS=9.9U PD=3.06U
+Mpmos@1 y enb net@6 vdd P L=0.36U W=2.16U AS=0.68P AD=1.604P PS=3.06U PD=5.22U
+.ENDS CMOScells__tri
+*** WARNING: no power connection for P-transistor wells in cell 'vsdbuff{lay}'
+*** WARNING: no ground connection for N-transistor wells in cell 'vsdbuff{lay}'
+
+*** TOP LEVEL CELL: vsdbuff{lay}
+Xinv@0 PDEN inv@0_gnd inv@0_vdd net@39 CMOScells__inv
+Xinv@1 net@37 inv@1_gnd inv@1_vdd net@11 CMOScells__inv
+Xnand2@0 pi y nand2@0_gnd nand2@0_vdd po CMOScells__nand2
+Mnmos@0 net@11 puen nmos@0_diff-top gnd N L=0.36U W=0.54U AS=0.292P AD=18.46P PS=2.16U PD=68.49U
+Mnmos@1 y net@4 nmos@1_diff-top gnd N L=0.36U W=0.54U AS=0.292P AD=9.153P PS=2.16U PD=34.2U
+Mnmos@2 nmos@2_diff-bottom net@4 y gnd N L=0.36U W=0.54U AS=9.153P AD=0.292P PS=34.2U PD=2.16U
+pmos-hv1@0 pmos-hv1@0_diff-bottom net@39 net@11 AREA=0.194P
+pmos-hv1@1 net@4 net@11 pmos-hv1@1_diff-top AREA=0.194P
+pmos-hv1@2 pmos-hv1@2_diff-bottom net@11 net@4 AREA=0.194P
+Xtri@1 tri@1_a tri@1_en tri@1_enb tri@1_gnd tri@1_vdd net@37 CMOScells__tri
+.END
