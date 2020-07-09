@@ -60,8 +60,9 @@
        Or directly use `$ sudo apt-get install –y electric`
                        `$ electric`
 		       
-#STEPS TO CLONE IP ON TO UNIX BASED SYSTEMS AND RUN PRE-LAYOUT SIMULATIONS
-$ sudo apt-get install ngspice
+## STEPS TO CLONE IP ON TO UNIX BASED SYSTEMS AND RUN PRE-LAYOUT SIMULATIONS
+
+`$ sudo apt-get install ngspice
 $ sudo apt install git
 $ git clone https://github.com/tanviarora23/vsdbbcud4f ls
 $ cd vsdbbcud4f$ ls
@@ -76,7 +77,8 @@ plot pden
 plot puen
 plot pi
 plot po
-plot out_t which is to see pad IO
+plot out_t which is to see pad IO`
+
 NOTE : PRELAYOUT SIMULATIONS ARE TESTED FOR osu180nm
 #STEPS TO OPEN LAYOUT IN ELECTRIC
             Work in progress . Will update soon
