@@ -53,7 +53,7 @@
 
 ## TOOLS NEEDED TO USE THIS IP
  
- 1. ngspice
+ ## ngspice
 
  IN ubuntu20.04:
  ` $ sudo apt-get install ngspice `
@@ -75,11 +75,12 @@
 	    7.after execution give cmd ` quit `
 
 
-   2. LTspiceXVII is used to simulate the General Purpose Input Output(GPIO). LtspiceXVII is a spice simulation software produced by semiconductor manufacturer Analog Devices.         Schematic of circuits and the waveforms can be obtained easily from this tool.
+   ## 2. LTspiceXVII
+   IT is used to simulate the General Purpose Input Output(GPIO). LtspiceXVII is a spice simulation software produced by semiconductor manufacturer Analog Devices.         Schematic of circuits and the waveforms can be obtained easily from this tool.
       
-      ### INSTALLING LTSpiceXVII
+  ### INSTALLING LTSpiceXVII
 
-       ### FOR Windows AND MacOS
+  ### FOR Windows AND MacOS
 
   1.Download LTspice from [here](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) 
   
@@ -110,7 +111,7 @@
    
 
 
- 3.Electric VLSI Design System (for layout and post-layout simulation purpose)
+ ## Electric VLSI Design System (for layout and post-layout simulation purpose)
      
    In linux: 
        
