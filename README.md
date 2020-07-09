@@ -32,23 +32,34 @@
   1. ngspice
 
    IN ubuntu20.04:
-                         ' $ sudo apt-get install ngspice '
+                         ` $ sudo apt-get install ngspice `
+			 
    IN Windows10:
-            1. Download ' ngspice32 ' and after installing ' spice64 ' folder is seen.
-            2.add your ' cir file ' to its bin folder.
-            3.click on ' ngspice.exe ' and write ' name  ' of your file added.
-            4.then give cmd ' RUN '
-            5.after that ' display '
-            6.now give command ' plot VARIABLE NAME ' and waveform is there.
-            7.after execution give cmd ' quit '
+            1. Download ` ngspice32 ` and after installing ` spice64 ` folder is seen.
+            
+	    2.add your `cir file ` to its bin folder.
+            
+	    3.click on ` ngspice.exe ` and write ` name  ` of your file added.
+            
+	    4.then give cmd ` RUN `
+            
+	    5.after that ` display `
+            
+	    6.now give command ` plot VARIABLE NAME ` and waveform is there.
+            
+	    7.after execution give cmd ` quit `
+
 
    2. LTspiceXVII is used to simulate the General Purpose Input Output(GPIO). LtspiceXVII is a spice simulation software produced by semiconductor manufacturer Analog Devices.         Schematic of circuits and the waveforms can be obtained easily from this tool.
 
+
    3.Electric VLSI Design System (for layout and post-layout simulation purpose)
-       In linux:       '$ sudo apt-get install electric'
-                       'Y'
-       Or directly use '$ sudo apt-get install –y electric'
-                       '$ electric'
+       In linux:       `$ sudo apt-get install electric`
+                       `Y`
+		       
+       Or directly use `$ sudo apt-get install –y electric`
+                       `$ electric`
+		       
 #STEPS TO CLONE IP ON TO UNIX BASED SYSTEMS AND RUN PRE-LAYOUT SIMULATIONS
 $ sudo apt-get install ngspice
 $ sudo apt install git
