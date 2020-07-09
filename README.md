@@ -35,7 +35,8 @@
                          ` $ sudo apt-get install ngspice `
 			 
    IN Windows10:
-            1. Download ` ngspice32 ` and after installing ` spice64 ` folder is seen.
+            
+	    1. Download ` ngspice32 ` and after installing ` spice64 ` folder is seen.
             
 	    2.add your `cir file ` to its bin folder.
             
@@ -54,30 +55,39 @@
 
 
    3.Electric VLSI Design System (for layout and post-layout simulation purpose)
-       In linux:       `$ sudo apt-get install electric`
-                       `Y`
+       In linux: 
+       
+       `$ sudo apt-get install electric`
+       
+        `Y`
 		       
-       Or directly use `$ sudo apt-get install –y electric`
-                       `$ electric`
+  Or directly use  ` $ sudo apt-get install –y electric `
+  
+                   `  $ electric `
 		       
 ## STEPS TO CLONE IP ON TO UNIX BASED SYSTEMS AND RUN PRE-LAYOUT SIMULATIONS
 
-`$ sudo apt-get install ngspice
-$ sudo apt install git
-$ git clone https://github.com/tanviarora23/vsdbbcud4f ls
-$ cd vsdbbcud4f$ ls
-$la
-ngspice netlist.cir
-run
-display
-plot a
-plot en
-plot y
-plot pden
-plot puen
-plot pi
-plot po
-plot out_t which is to see pad IO`
+`$ sudo apt-get install ngspice`
+
+`$ sudo apt install git`
+
+`$ git clone https://github.com/tanviarora23/vsdbbcud4f ls`
+
+`$ cd vsdbbcud4f$ ls`
+
+`$la`
+
+`$ngspice netlist.cir`
+`run`
+`display`
+`plot a`
+`plot en`
+`plot y`
+`plot pden`
+`plot puen`
+`plot pi`
+`plot po`
+`plot out_t which is to see pad IO`
 
 NOTE : PRELAYOUT SIMULATIONS ARE TESTED FOR osu180nm
 #STEPS TO OPEN LAYOUT IN ELECTRIC
