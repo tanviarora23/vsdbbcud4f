@@ -151,6 +151,8 @@ NOTE : PRELAYOUT SIMULATIONS ARE TESTED FOR osu180nm
 ## STEPS TO OPEN LAYOUT IN ELECTRIC
             
 	    Work in progress . Will update soon
+	    
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/layouts/progress.png)
 
 
 ## STEPS TO RUN POST-LAYOUT SIMULATIONS
