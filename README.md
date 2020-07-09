@@ -11,15 +11,22 @@
 
  ## PIN DESCRIPTIONS
     
-   1.A – (INPUT )-Input data is given at this pin.
-   2.EN– (INPUT )-When  EN=0 : Output path(core APAD) is  followed.
+ 1.A – (INPUT )-Input data is given at this pin.
+ 
+ 2.EN– (INPUT )-When  EN=0 : Output path(core APAD) is  followed.
                                         When EN=1 : Input path (PAD YCORE)is  followed.
-   3.PAD– (IO )-Bidirectional port.(Needed for communication between IPs)
-   4.PDEN – (INPUT )-Pull down Enable, connected to ground, pull down pin to low value when signal is floating.
-   5.PI– (INPUT )-Input data at pad, Determines output of PO on  inputting with Y.
-   6.PO– (OUTPUT )-Output from pad, Determined by Y and PI as inputs of dual nand gate.  
-   7.PUEN– (INPUT )-Pull up Enable,connected to vdd, pull up pin to high value when signal is floating.
-   8.Y-(OUTPUT)-Output pin.
+ 
+ 3.PAD– (IO )-Bidirectional port.(Needed for communication between IPs)
+ 
+ 4.PDEN – (INPUT )-Pull down Enable, connected to ground, pull down pin to low value when signal is floating.
+ 
+ 5.PI– (INPUT )-Input data at pad, Determines output of PO on  inputting with Y.
+ 
+ 6.PO– (OUTPUT )-Output from pad, Determined by Y and PI as inputs of dual nand gate.  
+ 
+ 7.PUEN– (INPUT )-Pull up Enable,connected to vdd, pull up pin to high value when signal is floating.
+ 
+ 8.Y-(OUTPUT)-Output pin.
 
 ## Typical Performance Characteristics
 
