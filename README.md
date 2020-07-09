@@ -1,6 +1,7 @@
 # DATASHEET
  ## vsdbbcud4f
    Bi-directional Buffer with Non-Inverting CMOS Input and Gated Pull-down and Pull-up,Strength 4mA @ 3.3V,Normal,High noise (Fast Speed)
+   
  ## DESCRIPTION OF VSDBBCUD4F
    VSDBBCUD4F is a GPIO(General Purpose Input Output) IP. It suits maximum frequency of approximately 2.538 MHz. Data flow is bidirectional i.e. from 'Input-->Output' or 
    'Output-->Input' depends on user’s choice of Enable pin.
@@ -30,6 +31,8 @@
 
 ## Typical Performance Characteristics
 
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/specifications.png)
+
 ## Future Work 
       ISSUES:
 	      1.Layout and Post Layout Simulations are in progress.
@@ -38,6 +41,7 @@
 
 
 # IP USAGE
+
 ## TOOLS NEEDED TO USE THIS IP
  
  1. ngspice
@@ -71,11 +75,12 @@
        
    `$ sudo apt-get install electric`
        
-    `Y`
+   `Y`
 		       
-  Or directly use  ` $ sudo apt-get install –y electric `
+  Or directly use  
+  ` $ sudo apt-get install –y electric `
   
-                   `  $ electric `
+ `  $ electric `
 		       
 ## STEPS TO CLONE IP ON TO UNIX BASED SYSTEMS AND RUN PRE-LAYOUT SIMULATIONS
 
@@ -127,19 +132,20 @@
 
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/Screenshot%20(5289).png)
 
+## Other Simulations
 
+EN=0 ONLY
 
-NOTE : PRELAYOUT SIMULATIONS ARE TESTED FOR osu180nm
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/Screenshot%20(5266).png)
 
-# PRELAYOUT SIMULATIONS
+EN=1 ONLY
 
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/Screenshot%20(5267).png)
 
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/Screenshot%20(5268).png)
 
 
-
-
-
+NOTE : PRELAYOUT SIMULATIONS ARE TESTED FOR osu180nm
 
 
 ## STEPS TO OPEN LAYOUT IN ELECTRIC
