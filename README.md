@@ -6,6 +6,8 @@
    'Output-->Input' depends on user’s choice of Enable pin.
 
  ## SYMBOL
+ 
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/pin.png)
 
  ## PIN DESCRIPTIONS
     
@@ -88,23 +90,49 @@
 
 `plot a`
 
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/Screenshot%20(5282).png)
+
 `plot en`
+
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/Screenshot%20(5284).png)
 
 `plot y`
 
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/Screenshot%20(5283).png)
+
 `plot pden`
+
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/Screenshot%20(5286).png)
 
 `plot puen`
 
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/Screenshot%20(5285).png)
+
 `plot pi`
+
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/Screenshot%20(5287).png)
 
 `plot po`
 
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/Screenshot%20(5288).png)
+
 `plot out_t` which is to see pad IO
+
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/Screenshot%20(5289).png)
+
+
 
 NOTE : PRELAYOUT SIMULATIONS ARE TESTED FOR osu180nm
 
 # PRELAYOUT SIMULATIONS
+
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/Screenshot%20(5267).png)
+
+
+
+
+
+
 
 
 ## STEPS TO OPEN LAYOUT IN ELECTRIC
