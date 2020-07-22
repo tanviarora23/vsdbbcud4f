@@ -230,14 +230,30 @@ NOTE : PRELAYOUT SIMULATIONS ARE TESTED FOR osu180nm
 
 
 ## STEPS TO OPEN LAYOUT IN MAGIC
-            
+                
+# LAYOUT
+The layout of  GPIO is obtained using LCLayout,Magic and cleared the extraction warnings, errors.Actually netlist was divided into three cells: 
+Left,Middle,Right.
+Left cell includes pull up(PUEN) and pull down(PDEN) part. 
+Middle part includes PI,PO and Y. 
+Right part includes A,EN.
+
+### LEFT CELL: 
+Left cell includes pull up(PUEN) and pull down(PDEN) part. 
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/L4.jpeg)
+
+### MIDDLE CELL:
+Middle part includes PI,PO and Y.
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/L5.jpeg)
+
+### RIGHT CELL:
+Right part includes A,EN.
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/L6.jpeg)
+
+IP:
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/layout.jpeg)
-
-
-## STEPS TO RUN POST-LAYOUT SIMULATIONS
-            Work in progress . Will update soon.
-	    
-  
+The layout of the cell measures 242.00 microns * 70.00 microns i.e. 16940 units^2.
+    
 
 # CONTACT INFORMATION
 I.TANVI ARORA,ECE,Deenbandhu Chhotu Ram Universiy of Science and Technology,Murthal,Haryana. tanviarora1058@gmail.com
