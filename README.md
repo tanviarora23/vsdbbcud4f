@@ -240,14 +240,17 @@ Right part includes A,EN.
 
 ### LEFT CELL: 
 Left cell includes pull up(PUEN) and pull down(PDEN) part. 
+
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/L4.jpeg)
 
 ### MIDDLE CELL:
 Middle part includes PI,PO and Y.
+
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/L5.jpeg)
 
 ### RIGHT CELL:
 Right part includes A,EN.
+
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/L6.jpeg)
 
 IP:
