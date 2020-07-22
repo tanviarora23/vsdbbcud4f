@@ -44,9 +44,9 @@
 
 ## Future Work 
       ISSUES:
-	      1.Layout and Post Layout Simulations are in progress.
+	      1. Post Layout Simulations are in progress.
 	      2. Placing and Routing (PNR) is pending. 
-    Fixed Layout and post Layout Simulations will be released soon. Trying to maximize frequency of GPIO as currently it suits maximum frequency of approximately 2.538 MHz.
+   Trying to maximize frequency of GPIO as currently it suits maximum frequency of approximately 2.538 MHz.
 
 
 # IP USAGE
@@ -229,11 +229,9 @@ EN=1 ONLY
 NOTE : PRELAYOUT SIMULATIONS ARE TESTED FOR osu180nm
 
 
-## STEPS TO OPEN LAYOUT IN ELECTRIC
+## STEPS TO OPEN LAYOUT IN MAGIC
             
-	    Work in progress . Will update soon
-	    
-![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/layouts/progress.png)
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/layout.jpeg)
 
 
 ## STEPS TO RUN POST-LAYOUT SIMULATIONS
