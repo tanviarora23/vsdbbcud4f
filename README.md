@@ -40,8 +40,7 @@
 
 ## Typical Performance Characteristics
 
-Target specifications can be found ![here](https://www.vlsisystemdesign.com/ip/)
-![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/IP%20Design/Images/specifications.png)
+Target specifications can be found [here](https://www.vlsisystemdesign.com/ip/)
 
 ## Future Work 
       ISSUES:
