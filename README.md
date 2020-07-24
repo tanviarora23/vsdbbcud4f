@@ -42,6 +42,15 @@
 
 Target specifications can be found [here](https://www.vlsisystemdesign.com/ip/)
 
+### Achieved Specifications of IP are as follows:
+
+### EN=0
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5524).png)
+
+### EN=1
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5524).png)
+
+
 ## Future Work 
       ISSUES:
 	      1. Post Layout Simulations are in progress.
