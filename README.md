@@ -52,7 +52,7 @@ Target Truth Table is as follows:
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5524).png)
 
 ### EN=1
-![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5524).png)
+![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5525).png)
 
 
 ## Future Work 
@@ -164,6 +164,7 @@ Target Truth Table is as follows:
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5371).png)
 
 `plot y`
+#### Y IS EXPECTED Y=1.8V WHEN EN=1 AND Y=A WHEN EN=0
 
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5377).png)
 
@@ -180,6 +181,7 @@ Target Truth Table is as follows:
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5374).png)
 
 `plot po`
+#### PO IS EXPECTED TO BE RECIPROCAL OF PI
 
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5375).png)
 
@@ -190,6 +192,8 @@ Target Truth Table is as follows:
 ## Other Simulations
 
 EN=0 ONLY
+
+#### Y IS EXPECTED TO FOLLOW A I.E. Y=A WHEN EN=0
 
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5370).png)
 
@@ -204,6 +208,8 @@ EN=1 ONLY
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5387).png)
 
 `plot y`
+
+#### Y IS EXPECTED TO BE 1.8 I.E. Y=1.8V WHEN EN=1 
 
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5381).png)
 
@@ -220,6 +226,8 @@ EN=1 ONLY
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5384).png)
 
 `plot po`
+
+#### PO IS EXPECTED TO BE RECIPROCAL OF PI
 
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5385).png)
 
@@ -241,9 +249,13 @@ EN=1 ONLY
 
 3.Y
 
+#### Y IS EXPECTED Y=1.8V WHEN EN=1 AND Y=A WHEN EN=0
+
 ![](https://github.com/tanu2303/BidirectionalBuffer-GPIO/blob/master/6july/Screenshot%20(5176).png)
 
 4.PO
+
+#### PO IS EXPECTED TO BE RECIPROCAL OF PI
 
 ![](https://github.com/tanu2303/BidirectionalBuffer-GPIO/blob/master/6july/Screenshot%20(5171).png)
 
