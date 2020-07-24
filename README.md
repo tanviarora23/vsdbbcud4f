@@ -195,18 +195,31 @@ EN=0 ONLY
 
 EN=1 ONLY
 
+`plot en`
+
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5380).png)
 
+`plot a`
 
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5387).png)
 
+`plot y`
+
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5381).png)
+
+`plot pden`
 
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5382).png)
 
+`plot puen`
+
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5383).png)
 
+`plot pi`
+
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5384).png)
+
+`plot po`
 
 ![](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Layout/Images/Screenshot%20(5385).png)
 
