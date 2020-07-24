@@ -57,8 +57,8 @@ Target Truth Table is as follows:
 
 ## Future Work 
       ISSUES:
-	      1. Post Layout Simulations are in progress.
-	      2. Placing and Routing (PNR) is pending. 
+	      1. Parasitic Extraction needs to be done for perfect Post Layout Simulations.
+	      2. Placing and Routing (PNR) is pending (to be taken care of by VSD Corp. Pvt. Ltd.) 
    Trying to maximize frequency of GPIO as currently it suits maximum frequency of approximately 2.538 MHz.
 
 
