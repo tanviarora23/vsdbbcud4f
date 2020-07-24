@@ -40,7 +40,7 @@
 
 ## Typical Performance Characteristics
 
-Target specifications can be found [here](https://www.vlsisystemdesign.com/ip/)
+Target specifications can be found [here](https://github.com/tanviarora23/vsdbbcud4f/blob/master/Target%20Specifications/VSDBBCUD4F.pdf)
 
 Target Truth Table is as follows:
 
